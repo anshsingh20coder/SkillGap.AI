@@ -1,0 +1,21 @@
+{
+  "name": "skillgap-ai",
+  "version": "1.0.0",
+  "description": "SkillGap AI - Production-Quality Resume vs Job Description Gap Analyser",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "test:eval": "cd backend && npm run test:eval",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "skillgap",
+    "nlp",
+    "resume-parser",
+    "job-matcher",
+    "react",
+    "node"
+  ],
+  "author": "SkillGap AI Team",
+  "license": "MIT"
+}
